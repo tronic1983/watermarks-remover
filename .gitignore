@@ -49,6 +49,8 @@
 .env
 **/__pycache__/
 *.pyc
+# Symlink created at runtime by .claude/hooks/session-start.sh; not source.
+/.claude/skills/
 # The stealer's downloaded prompt corpus is generated data, not source.
 stealer/prompts/
 stealer/prompts/**
